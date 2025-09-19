@@ -1,0 +1,207 @@
+{
+  "modulos": {
+    "financiero": {
+      "procesos": [
+        {
+          "id": "solicitudes-asociacion-conceptos-ingreso",
+          "titulo": "Asociación de Conceptos a Unidades Presupuestales",
+          "url": "/#/conceptos-ingreso-financiero/",
+          "palabras_clave": [
+            "solicitud",
+            "asociacion",
+            "asociar",
+            "conceptos",
+            "ingreso",
+            "unidades",
+            "presupuestal"
+          ],
+          "proposito": "Procedimiento de asociación de conceptos de ingreso a unidades presupuestales.",
+          "flujo": [
+            {
+              "paso": 1,
+              "accion": "Crear Solicitud",
+              "responsable": "Secretaria o jefe de unidad o Jefe de unidad / Auxiliar o Jefe de presupuesto",
+              "detalles": "La secretaria de unidad o el jefe de unidad selecciona un concepto de ingreso y posteriormente las unidades presupuestales."
+            },
+            {
+              "paso": 2,
+              "accion": "Aprobación o Rechazo",
+              "responsable": "Auxiliar o Jefe de presupuesto",
+              "detalles": "La solicitud debe ser aprobada por el auxiliar o jefe de presupuesto."
+            }
+          ]
+        },
+        {
+          "id": "crear-conceptos",
+          "titulo": "Creación de Solicitudes de Conceptos de Ingreso",
+          "url": "/#/conceptos-ingreso-financiero/crear-solicitud-concepto",
+          "palabras_clave": [
+            "crear",
+            "conceptos",
+            "ingreso",
+            "solicitud",
+            "financiero"
+          ],
+          "proposito": "Procedimiento para la creación de solicitudes de conceptos de ingreso.",
+          "flujo": [
+            {
+              "paso": 1,
+              "accion": "Crear Solicitud",
+              "responsable": "Secretaria o jefe de unidad",
+              "detalles": "La secretaria o jefe de unidad solicita la creación de un concepto de ingreso, asociando una o varias uniadades presupuestales."
+            },
+            {
+              "paso": 2,
+              "accion": "Asociar Rubros",
+              "responsable": "Auxiliar o jefe de presupuesto",
+              "detalles": "Se asocian los rubros presupuestales por parte del auxiliar o jefe de presupuesto."
+            }
+          ]
+        }
+      ]
+    },
+    "rrhh": {
+      "procesos": [
+        {
+          "id": "contratacion",
+          "titulo": "Proceso de Contratación prestación de servicios",
+          "url": "/#/contratos/solicitudes-contrato",
+          "palabras_clave": [
+            "contratación",
+            "contratacion",
+            "ops",
+            "general",
+            "contrato",
+            "empleado",
+            "hoja de vida",
+            "prestación",
+            "servicios"
+          ],
+          "proposito": "Guía completa para el proceso de onboarding de personal, desde la solicitud hasta la aprobación final del contrato y documentación.",
+          "flujo": [
+            {
+              "paso": 1,
+              "accion": "Crear Solicitud",
+              "responsable": "Secretaria",
+              "detalles": "La secretaria crea la solicitud de contrato en el sistema. Debe seleccionar el proveedor activo, las unidades académicas que gestionan, pagan y ordenan el contrato, el tipo de contrato, el tipo de vinculación, el estado de la persona y el rol de cada una."
+            },
+            {
+              "paso": 2,
+              "accion": "Aprobación/Rechazo de Solicitud",
+              "responsable": "Jefe",
+              "detalles": "El jefe revisa y aprueba la solicitud. El proceso no avanza sin esta aprobación. En caso de rechazar se devuelve a la secretaria con las observaciones."
+            },
+            {
+              "paso": 3,
+              "accion": "Aprobación/Rechazo de Contratación",
+              "responsable": "Analista de Contratación",
+              "detalles": "El analista de contratación valida la solicitud según las políticas de la universidad. En caso de rechazar se devuelve a la secretaria con las observaciones."
+            },
+            {
+              "paso": 4,
+              "accion": "Aprobación/Rechazo SIGEP",
+              "responsable": "Analista SIGEP",
+              "detalles": "El analista SIGEP da su visto bueno para el proceso. En caso de rechazar se devuelve a la secretaria con las observaciones."
+            },
+            {
+              "paso": 5,
+              "accion": "Carga de Hoja de Vida",
+              "responsable": "Empleado",
+              "detalles": "El futuro empleado sube su documentación (hoja de vida, certificaciones, etc.) al sistema."
+            },
+            {
+              "paso": 6,
+              "accion": "Aprobación/Rechazo de Documentación",
+              "responsable": "Analista SIGEP",
+              "detalles": "El analista SIGEP verifica que la documentación cargada esté completa y cumpla los requisitos. En caso de rechazar se notifica al empleado con las observaciones."
+            },
+            {
+              "paso": 7,
+              "accion": "Contrato Aprobado",
+              "responsable": "Sistema",
+              "detalles": "El proceso finaliza y el contrato queda formalmente aprobado."
+            }
+          ],
+          "tutorial_guiado": {
+            "steps": [
+              {
+                "element": "#tour-example",
+                "popover": {
+                  "title": "Animated Tour Example",
+                  "description": "Here is the code example showing animated tour. Let's walk you through it.",
+                  "side": "left",
+                  "align": "start"
+                }
+              },
+              {
+                "element": "code .line:nth-child(1)",
+                "popover": {
+                  "title": "Import the Library",
+                  "description": "It works the same in vanilla JavaScript as well as frameworks.",
+                  "side": "bottom",
+                  "align": "start"
+                }
+              },
+              {
+                "element": "code .line:nth-child(2)",
+                "popover": {
+                  "title": "Importing CSS",
+                  "description": "Import the CSS which gives you the default styling for popover and overlay.",
+                  "side": "bottom",
+                  "align": "start"
+                }
+              },
+              {
+                "element": "code .line:nth-child(4) span:nth-child(7)",
+                "popover": {
+                  "title": "Create Driver",
+                  "description": "Simply call the driver function to create a driver.js instance",
+                  "side": "left",
+                  "align": "start"
+                }
+              },
+              {
+                "element": "code .line:nth-child(18)",
+                "popover": {
+                  "title": "Start Tour",
+                  "description": "Call the drive method to start the tour and your tour will be started.",
+                  "side": "top",
+                  "align": "start"
+                }
+              },
+              {
+                "element": "a[href=\"/docs/configuration\"]",
+                "popover": {
+                  "title": "More Configuration",
+                  "description": "Look at this page for all the configuration options you can pass.",
+                  "side": "right",
+                  "align": "start"
+                }
+              },
+              {
+                "popover": {
+                  "title": "Happy Coding",
+                  "description": "And that is all, go ahead and start adding tours to your applications."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "vacaciones",
+          "titulo": "Solicitud de Días de Descanso",
+          "url": "/#/rrhh/vacaciones",
+          "palabras_clave": [
+            "vacaciones",
+            "dias",
+            "descanso",
+            "viaticos",
+            "rrhh"
+          ],
+          "proposito": "Guía para la solicitud de días de descanso para empleados.",
+          "flujo": []
+        }
+      ]
+    }
+  }
+}

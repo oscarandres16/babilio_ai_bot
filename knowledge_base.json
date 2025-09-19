@@ -1,0 +1,32 @@
+{
+  "solicitudes-asociacion": {
+    "keywords": [
+      "solicitud",
+      "asociacion",
+      "conceptos",
+      "unidades",
+      "presupuestal",
+      "financiero"
+    ],
+    "descripcion": "Procedimiento de asociación de conceptos a unidades presupuestales.",
+    "url": "/#/conceptos-ingreso-financiero/gestionar-conceptos-unidades?relation=UAA-CONCEPTO&id=1",
+    "pasos": [
+      "La secretaria de unidad o el jefe de unidad solicita la asociación de conceptos de ingreso a unidades presupuestales.",
+      "Debe ser aprobada por el auxiliar o jefe de presupuesto."
+    ]
+  },
+  "crear-conceptos": {
+    "keywords": ["crear", "conceptos", "ingreso", "solicitud", "financiero"],
+    "descripcion": "Procedimiento para la creación de solicitudes de conceptos de ingreso.",
+    "url": "/#/conceptos-ingreso-financiero/crear-solicitud-concepto",
+    "pasos": [
+      "La secretaria o jefe de unidad solicita la creación de un concepto de ingreso, asociando una o varias uniadades presupuestales.",
+      "Se asocian los rubros presupuestales por parte del auxiliar o jefe de presupuesto."
+    ]
+  },
+  "vacaciones": {
+    "keywords": ["vacaciones", "dias", "descanso", "viaticos", "rrhh"],
+    "descripcion": "Guía para la solicitud de días de descanso para empleados.",
+    "url": "/#/rrhh/vacaciones"
+  }
+}
